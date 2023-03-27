@@ -35,12 +35,9 @@ function App() {
   return (
     <div>
       <h2>Let's get started!</h2>
-      {
-      expenses.map((item,i)=>
-      <ExpenseItem data= {item}></ExpenseItem> )
-      
-      }
-      
+      {expenses.map((item, i) => (
+        <ExpenseItem data={item}></ExpenseItem>
+      ))}
     </div>
   );
 }
