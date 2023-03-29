@@ -8,7 +8,13 @@ const Expenses = (props) => {
     <Card className="expenses">
       <ExpensesFilter></ExpensesFilter>
       {props.expenses.map((item, i) => (
-        <ExpenseItem data={item}></ExpenseItem>
+        <ExpenseItem 
+        key = {item.id}
+        title= {item.title}
+        amount= {item.amount}
+        date= {item.date}
+        location= {item.location}
+        ></ExpenseItem>
       ))}
     </Card>
   );
