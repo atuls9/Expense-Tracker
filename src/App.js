@@ -29,7 +29,7 @@ const DUMMY_EXPENSES = [
     title: "Bike",
     amount: 90000,
     location: "Pune",
-    date: new Date(2022, 1, 25),
+    date: new Date(2021, 1, 25),
   },
 ];
 function App() {
